@@ -38,7 +38,6 @@ int main()
     {
         if (currLine == "")
         {
-            cout << "NEW LINE" << endl;
             int indexLowestElf = getLowIndex(topThreeElves);
             int checkAgainst = topThreeElves.at(indexLowestElf);
 
